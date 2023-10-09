@@ -1,8 +1,11 @@
 import React from 'react'
 
-export default function Title() {
+function [title]() {
     return (
-        <p>Movie by Title</p>
+    <div>
+        
+    </div>
     )
 }
 
+export default [title]

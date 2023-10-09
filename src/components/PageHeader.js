@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Card from 'react-bootstrap/Card';
 
-export default function PageHeader() {
+export default function PageHeader(props) {
     return (
-        <p>PageHeader</p>
-    )
+        <div>
+            <Card className="bg-light">
+                <Card.Body>{props.text}</Card.Body>
+            </Card>
+            <br />
+        </div>
+    );
 }
-
