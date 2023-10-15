@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
-    "next": "latest",
+    "next": "13.4.9",
     "react": "latest",
     "react-bootstrap": "^2.9.0",
     "react-dom": "latest",
