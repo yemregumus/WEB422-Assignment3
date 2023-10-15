@@ -9,7 +9,9 @@ function MainNav() {
         <Container>
           <Nav fixed="top">
             <Navbar.Brand>
-              <strong>Yunus Gumus</strong>
+              <Link href="https://www.linkedin.com/in/jonasgumusyyz/" target="_blank" rel="noopener noreferrer" className="rainbow-link">
+                <span className="rainbow-text">Yunus Gumus</span>
+              </Link>
             </Navbar.Brand>
             <Link href="/" passHref legacyBehavior>
               <Nav.Link href="/">Movies</Nav.Link>
