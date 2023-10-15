@@ -19,6 +19,7 @@
     "swr": "^2.2.4"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.40.2",
     "eslint": "^8.10.0",
     "eslint-config-next": "^13.5.4"
   }
