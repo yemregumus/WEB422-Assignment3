@@ -1,5 +1,32 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+###############################################################################
+Dev Notes 
+Issue with Netlify deployment and it's fix.
+
+Netlify works with Next.js version 13.4.9. Our app is using 13.5 and this creates an issue in Netlify and individual movie links are not working/rendering/throwing an error. You don't have to delete your deployment, do below Netlify will auto re-deploy from github repo. 
+
+
+Step by step fix:
+
+	
+Open your local assignment folder in vscode
+	
+Start a new terminal and cd to your assignment folder
+	
+Uninstall nextjs (npm uninstall next)
+	
+Install nextjs back with version 13.4.9 (npm install next@13.4.9)
+	
+After installing you have to delete ^ sign from the beginning of next version number in your package.json since its still upgrading your version to latest regardless whats your version.
+		
+	
+Save, commit, push & sync the changes to github and wait for Netlify to auto re-deploy from your github repo.
+###############################################################################
+
+
+
 ## Getting Started
 
 First, run the development server:

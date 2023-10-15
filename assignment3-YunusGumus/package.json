@@ -1,0 +1,23 @@
+{
+  "name": "assignment3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "next": "13.4.9",
+    "react": "latest",
+    "react-bootstrap": "^2.9.0",
+    "react-dom": "latest",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
